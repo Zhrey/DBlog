@@ -8,11 +8,11 @@
     </appender>
     <!-- 出错日志 appender -->
     <appender name="ERROR_OUT" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <File>/home/jenkins/logs/admin/error.log</File>
+        <File>/home/jenkins/logs/dblog/admin/error.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- 按天回滚 daily -->
             <!-- log.dir 在maven profile里配置 -->
-            <fileNamePattern>/home/jenkins/logs/admin/error-%d{yyyy-MM-dd}.log
+            <fileNamePattern>/home/jenkins/logs/dblog/admin/error-%d{yyyy-MM-dd}.log
             </fileNamePattern>
             <!-- 日志最大的历史 7天 -->
             <maxHistory>7</maxHistory>
