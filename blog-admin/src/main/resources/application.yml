@@ -19,7 +19,7 @@ spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://47.93.248.210:3306/dblog?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false
+        url: jdbc:mysql://172.17.28.247:3306/dblog?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false
         username: admin
         password: admin
     application:
@@ -69,7 +69,7 @@ spring:
     redis:
         database: 1
         # Redis服务器地址
-        host: 47.93.248.210
+        host: 172.17.28.247
         # Redis服务器连接端口
         port: 6379
         # Redis服务器连接密码（默认为空）
